@@ -1,3 +1,6 @@
+#Author: Steven B.
+#This work is licensed under the GPL v3
+#https://www.gnu.org/licenses/gpl-3.0.html
 import os
 import getpass
 from Crypto.Hash import SHA256
