@@ -14,7 +14,7 @@ def myHashFunction(password, hashCycles=20):
 	"""Function that repeatedly hashes a given password and returns the final hash value.
 		Default hash cycles of 20 times.
 
-		Returns string"""
+		Returns a string"""
 	currentValue = password
 	for i in range(hashCycles):
 		myHashObject = SHA256.new()
